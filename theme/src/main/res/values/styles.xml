@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBluePrimary</item>
+        <item name="colorPrimaryDark">@color/colorBluePrimaryDark</item>
+        <item name="colorAccent">@color/colorBlueAccent</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar"/>
+
+    <style name="AppTheme.WindowOverlay" parent="ThemeOverlay.AppCompat.Dark"/>
+    <style name="AppTheme.PopUpOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>

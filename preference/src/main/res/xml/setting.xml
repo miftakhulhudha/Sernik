@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="General">
+        <ListPreference
+            android:entries="@array/locale"
+            android:entryValues="@array/locale_value"
+            android:icon="@drawable/ic_public_black_24dp"
+            android:key="pref_locale"
+            android:summary="Current locale"
+            android:title="Locale" />
+
+        <CheckBoxPreference
+            android:icon="@drawable/ic_light_24dp"
+            android:key="pref_alwayson"
+            android:summary="Always turn on screen"
+            android:title="Always On" />
+
+        <Preference
+            android:icon="@drawable/ic_info_outline_24dp"
+            android:key="pref_about"
+            android:summary="Aplication information"
+            android:title="About" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
